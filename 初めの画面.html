@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ポケモン</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="header">ポケモン図鑑</div>
+  <div class="search-form">
+    <form action="http://www.google.co.jp/search" method="get">
+    <input type="text" name="query" placeholder="ポケモンの名前を入力">
+    <button type="submit">検索</button>
+    </form>
+  </div>
+  <div class="type-select">
+    <div class="box1">
+      <p>タイプ</p>
+    </div>
+    <select name="type1">
+      <option value="water">みず</option>
+      <option value="fire">ほのお</option>
+      <option value="grass">くさ</option>
+    </select>
+    <select name="type2">
+      <option value="water">みず</option>
+      <option value="fire">ほのお</option>
+      <option value="grass">くさ</option>
+    </select>
+  </div>
+  <div class="talent-select">
+    <div class="box2">
+      <p>能力値</p>
+    </div class=>
+    <p>HP</p>
+    <form action="能力の範囲選択">
+      <p>最小</p>
+      <input type="number" name="quantity" min="1" max="100">
+      <p>最大</p>
+      <input type="number" name="quantity" min="1" max="100">
+    </form>
+  </div>
+  <div class="color-select">
+    <div class="box3">
+      <p>シリーズ名</p>
+    </div>
+    <select name="color">
+      <option value="red">赤緑</option>
+      <option value="blue">金銀</option>
+      <option value="yellow">ルビサファイア</option>
+      <option value="yellow">ダイヤモンドパール</option>
+    </select>
+  </div>
+</body>
+</html>
