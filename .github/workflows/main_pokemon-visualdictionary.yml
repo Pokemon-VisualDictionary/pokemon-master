@@ -63,4 +63,4 @@ jobs:
           app-name: 'Pokemon-VisualDictionary'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A983D696EEDC44A6BEAB6912DD72D52D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B4C7D6B5C884743AAADE0B018C80A08 }}
